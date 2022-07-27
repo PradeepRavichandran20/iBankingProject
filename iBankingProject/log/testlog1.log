@@ -1,0 +1,33 @@
+2022-07-13 13:57:53,418 [main] INFO ebanking - Entered Username
+2022-07-13 13:57:53,592 [main] INFO ebanking - Entered password
+2022-07-13 13:57:59,549 [main] INFO ebanking - Title is valid
+2022-07-23 19:47:46,204 [main] INFO ebanking - Entered Username
+2022-07-23 19:47:47,135 [main] INFO ebanking - Entered password
+2022-07-23 19:47:54,206 [main] INFO ebanking - Title is valid
+2022-07-23 20:36:45,714 [main] INFO ebanking - Entered Username
+2022-07-23 20:36:45,753 [main] INFO ebanking - Entered password
+2022-07-23 20:36:50,171 [main] INFO ebanking - Title is valid
+2022-07-23 21:26:49,158 [main] INFO ebanking - Entered Username
+2022-07-23 21:26:49,223 [main] INFO ebanking - Entered password
+2022-07-23 21:27:14,645 [main] INFO ebanking - Title is valid
+2022-07-23 21:31:12,339 [main] INFO ebanking - Entered Username
+2022-07-23 21:31:12,470 [main] INFO ebanking - Entered password
+2022-07-23 21:31:13,798 [main] INFO ebanking - Title is valid
+2022-07-27 19:21:49,937 [main] INFO ebanking - Entered Username
+2022-07-27 19:21:50,290 [main] INFO ebanking - Entered password
+2022-07-27 19:24:13,137 [main] INFO ebanking - Entered Username
+2022-07-27 19:24:13,201 [main] INFO ebanking - Entered password
+2022-07-27 19:27:31,337 [main] INFO ebanking - Entered Username
+2022-07-27 19:27:32,213 [main] INFO ebanking - Entered password
+2022-07-27 21:26:25,667 [main] INFO ebanking - Username provided
+2022-07-27 21:26:26,157 [main] INFO ebanking - password provided
+2022-07-27 21:26:33,919 [main] INFO ebanking - Login passed
+2022-07-27 21:26:40,008 [main] INFO ebanking - Username provided
+2022-07-27 21:26:40,044 [main] INFO ebanking - password provided
+2022-07-27 21:26:45,437 [main] INFO ebanking - Username provided
+2022-07-27 21:26:45,473 [main] INFO ebanking - password provided
+2022-07-27 21:26:50,282 [main] INFO ebanking - Username provided
+2022-07-27 21:26:50,306 [main] INFO ebanking - password provided
+2022-07-27 21:26:54,220 [main] INFO ebanking - Login passed
+2022-07-27 21:26:59,866 [main] INFO ebanking - Username provided
+2022-07-27 21:26:59,887 [main] INFO ebanking - password provided
