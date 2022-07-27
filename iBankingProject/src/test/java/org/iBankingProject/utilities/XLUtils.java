@@ -69,6 +69,7 @@ public class XLUtils {
 		return data;
 	}
 	
+	//test
 	public static void setCellData(String xlfile,String xlsheet,int rownum,int colnum,String data) throws IOException
 	{
 		fi=new FileInputStream(xlfile);
