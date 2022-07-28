@@ -1,14 +1,11 @@
 package org.iBankingProject.testcases;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.iBankingProject.utilities.ReadConfig;
@@ -17,6 +14,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 public class baseclass {
 
@@ -26,6 +26,7 @@ public class baseclass {
 	public String baseurl = readconfig.getApplicationURL();
 	public String username = readconfig.getUsername();
 	public String password = readconfig.getPassword();
+
 	public static WebDriver driver;
 
 	public static Logger logger;
@@ -69,6 +70,17 @@ public class baseclass {
 		File target = new File(System.getProperty("user.dir")+ "/Screenshots/" + tname + ".png" );
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken");
+	}
+	
+	public String randomestring()
+	{
+		String generatedstring= RandomStringUtils.randomAlphabetic(8);
+		return(generatedstring);
+	}
+	
+	public static String randomeNum() {
+		String generatedString2 = RandomStringUtils.randomNumeric(4);
+		return (generatedString2);
 	}
 
 }

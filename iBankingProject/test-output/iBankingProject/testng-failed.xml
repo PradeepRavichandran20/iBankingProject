@@ -7,13 +7,20 @@
   <test thread-count="5" name="BankingApp Test(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="org.iBankingProject.testcases.Tc_LoginDDT_002">
+      <class name="org.iBankingProject.testcases.Tc_AddNewCustomer_003">
         <methods>
           <include name="teardown"/>
-          <include name="loginDDT" invocation-numbers="1 2 4"/>
           <include name="setup"/>
+          <include name="addnewcustomer"/>
         </methods>
-      </class> <!-- org.iBankingProject.testcases.Tc_LoginDDT_002 -->
+      </class> <!-- org.iBankingProject.testcases.Tc_AddNewCustomer_003 -->
+      <class name="org.iBankingProject.testcases.Tc_logintest_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- org.iBankingProject.testcases.Tc_logintest_001 -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [iBankingProject] -->

@@ -10,8 +10,9 @@
 	<test name="BankingApp Test">
 		<parameter name="browser" value="firefox" />
 			<classes>
-				<!-- <class name="org.iBankingProject.testcases.Tc_logintest_001" /> -->
+				<class name="org.iBankingProject.testcases.Tc_logintest_001" />
 				<class name="org.iBankingProject.testcases.Tc_LoginDDT_002" />
+				<class name="org.iBankingProject.testcases.Tc_AddNewCustomer_003" /> 
 			</classes>
 
 	</test>
